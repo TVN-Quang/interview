@@ -8,7 +8,7 @@
 
 ### 3. ServicesServices
 #### 1. Amazon EKS (Elastic Kubernetes Service)
-- Host
+- EKS is used to run backend services.
 - By leveraging Kubernetes’ strengths such as flexible scalability, self-healing, resource partitioning, and cross-platform/environment portability through manifest files (making it easy to switch to a different platform when needed) 
 - Meanwhile, with AWS EKS, the control plane is managed by AWS, so there’s no need to handle installation, maintenance, or patching, thus reducing operational overhead. It integrates seamlessly with other AWS services and supports automatic scaling of node groups via Cluster Autoscaler or Karpenter, ensuring a resilient, scalable, and cost-effective infrastructure.
 #### 2. Amazon RDS (Relational Database Service)
