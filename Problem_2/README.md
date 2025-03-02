@@ -11,9 +11,8 @@
 - EKS is used to run backend services.
 - By leveraging Kubernetes’ strengths such as flexible scalability, self-healing, resource partitioning, and cross-platform/environment portability through manifest files (making it easy to switch to a different platform when needed) 
 - Meanwhile, with AWS EKS, the control plane is managed by AWS, so there’s no need to handle installation, maintenance, or patching, thus reducing operational overhead. It integrates seamlessly with other AWS services and supports automatic scaling of node groups via Cluster Autoscaler or Karpenter, ensuring a resilient, scalable, and cost-effective infrastructure.
-#### 2. Amazon RDS (Relational Database Service)
-- Stores data. 
-- Provides Multi-AZ capability, automatically switches over to the standby instance in a different AZ, making it the new primary when a failure occurs, ensuring resilience to failures.
+#### 2. Amazon Aurora 
+- The reason for choosing Aurora is that it delivers better performance and can easily support 500 requests per second. Additionally, since a cryptocurrency exchange requires real-time data, Aurora's distributed and shared storage architecture ensures low latency when reading data from replicas. Although it is more expensive than RDS, it offers more reliable performance.
 #### 3. Amazon ElastiCache for Redis
 - Create a caching layer to accelerate data access and reduce the load on RDS. 
 - An AWS-managed service that reduces operational overhead and provides failover support.

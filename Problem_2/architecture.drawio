@@ -10,9 +10,6 @@
         <mxCell id="BYJi9OCZLbPdZtuotPyX-49" value="AWS Cloud" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#FF8000;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#000000;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="-130" y="-450" width="1530" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="BYJi9OCZLbPdZtuotPyX-14" value="VPC" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#FF8000;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="-330" width="850" height="530" as="geometry" />
-        </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-47" value="Region" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="-360" width="1110" height="580" as="geometry" />
         </mxCell>
@@ -36,6 +33,9 @@
         </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-9" value="Endpoint Service&amp;nbsp;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoints;" parent="BYJi9OCZLbPdZtuotPyX-47" vertex="1">
           <mxGeometry x="200" y="243.25" width="54.5" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BYJi9OCZLbPdZtuotPyX-14" value="VPC" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#FF8000;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" parent="BYJi9OCZLbPdZtuotPyX-47" vertex="1">
+          <mxGeometry x="220" y="25" width="850" height="530" as="geometry" />
         </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-18" value="Availability Zone 1b" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="-79.5" width="750" height="190" as="geometry" />
@@ -62,19 +62,22 @@
           <mxGeometry x="84" y="30.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-20" value="DB Private subnet&amp;nbsp;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="767" y="-280" width="133" height="145" as="geometry" />
-        </mxCell>
-        <mxCell id="BYJi9OCZLbPdZtuotPyX-22" value="RDS DB Primary" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" parent="BYJi9OCZLbPdZtuotPyX-20" vertex="1">
-          <mxGeometry x="53" y="26" width="27" height="30" as="geometry" />
+          <mxGeometry x="767" y="-280" width="161" height="145" as="geometry" />
         </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-81" value="Redis Primary" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.elasticache_for_redis;" parent="BYJi9OCZLbPdZtuotPyX-20" vertex="1">
           <mxGeometry x="46.71" y="84" width="39.57" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="TMk9qF6HVAHIVn1IRWAT-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" vertex="1" parent="BYJi9OCZLbPdZtuotPyX-20">
+          <mxGeometry x="32.99999999999995" y="26" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TMk9qF6HVAHIVn1IRWAT-11" value="Replica" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance_alt;" vertex="1" parent="BYJi9OCZLbPdZtuotPyX-20">
+          <mxGeometry x="86.28" y="26" width="40" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-21" value="DB Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="767" y="-52.5" width="133" height="149.5" as="geometry" />
         </mxCell>
-        <mxCell id="BYJi9OCZLbPdZtuotPyX-23" value="RDS DB Standby" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" parent="BYJi9OCZLbPdZtuotPyX-21" vertex="1">
-          <mxGeometry x="56" y="27.5" width="30" height="32.5" as="geometry" />
+        <mxCell id="TMk9qF6HVAHIVn1IRWAT-12" value="Replica" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance_alt;" vertex="1" parent="BYJi9OCZLbPdZtuotPyX-21">
+          <mxGeometry x="30.610000000000014" y="22.5" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -121,7 +124,7 @@
         <mxCell id="BYJi9OCZLbPdZtuotPyX-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-50" target="BYJi9OCZLbPdZtuotPyX-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uSjDolNNVmsRICeSGvWV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BYJi9OCZLbPdZtuotPyX-51" target="BYJi9OCZLbPdZtuotPyX-13">
+        <mxCell id="uSjDolNNVmsRICeSGvWV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-51" target="BYJi9OCZLbPdZtuotPyX-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-20" y="-80" />
@@ -162,11 +165,15 @@
         <mxCell id="BYJi9OCZLbPdZtuotPyX-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-66" target="BYJi9OCZLbPdZtuotPyX-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BYJi9OCZLbPdZtuotPyX-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-70" target="BYJi9OCZLbPdZtuotPyX-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BYJi9OCZLbPdZtuotPyX-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="797.6104550108066" y="-10" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BYJi9OCZLbPdZtuotPyX-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-69" target="BYJi9OCZLbPdZtuotPyX-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BYJi9OCZLbPdZtuotPyX-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BYJi9OCZLbPdZtuotPyX-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="-240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BYJi9OCZLbPdZtuotPyX-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BYJi9OCZLbPdZtuotPyX-69" target="BYJi9OCZLbPdZtuotPyX-55" edge="1">
           <mxGeometry relative="1" as="geometry">
